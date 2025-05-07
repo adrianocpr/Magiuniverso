@@ -1,0 +1,1 @@
+// Placeholder for magic_enchantments.sol

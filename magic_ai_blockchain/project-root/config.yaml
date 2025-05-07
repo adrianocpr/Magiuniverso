@@ -1,0 +1,10 @@
+max_mana_per_second: 5000
+allow_infinite_energy: false
+forbidden_actions:
+  - create_universe
+  - destroy_multiverse
+  - bypass_time_limit
+allowed_blockchains:
+  - divine_layer
+  - racial_treaty_layer
+  - exploration_log_layer

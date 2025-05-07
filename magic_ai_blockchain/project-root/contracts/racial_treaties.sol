@@ -1,0 +1,1 @@
+// Placeholder for racial_treaties.sol
