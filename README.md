@@ -1,2 +1,1 @@
-# Magiuniverso
-an game universe fusing ia magic exploraration and more 
+# Custom Blockchain for Magic & AI Universe
