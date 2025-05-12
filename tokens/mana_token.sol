@@ -1,0 +1,1 @@
+// Placeholder for mana_token.sol
