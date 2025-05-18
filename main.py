@@ -1,12 +1,9 @@
+
 from fastapi import FastAPI
-from db import Base, engine
-from models import user
+from api.routes.planeta import router as planeta_router
+from api.routes.personagem import router as personagem_router
 
 app = FastAPI()
 
-# Criação das tabelas
-Base.metadata.create_all(bind=engine)
-
-@app.get("/")
-def read_root():
-    return {"message": "API com PostgreSQL conectada com sucesso"}
+app.include_router(planeta_router, prefix="/gerar_planeta", tags=["Planeta"])
+app.include_router(personagem_router, prefix="/gerar_personagem", tags=["Personagem"])
